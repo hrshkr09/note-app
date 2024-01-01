@@ -1,0 +1,19 @@
+.note-container {
+    height: 100%;
+  }
+  
+  .note-container h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color:rgb(18, 18, 139);
+  }
+  
+  .note-container_notes {
+    height: 90%;
+    display: flex;
+    align-content: baseline;
+    font-size: 1.2rem;
+    flex-wrap: wrap;
+    gap: 20px;
+    overflow-y: scroll;
+  }
